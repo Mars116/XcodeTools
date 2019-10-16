@@ -16,6 +16,7 @@ The Custom CodeSnippets、Template
 
 4. Usage: Custom Template
 ```objective-c
+         sudo chmod -R 777 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File\ Templates
          ./setup_template.sh
 ```
 
