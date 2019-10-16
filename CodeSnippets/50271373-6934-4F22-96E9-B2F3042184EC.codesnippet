@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>initTableVC</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self initUI];
+    [self setupSignal];
+}
+
+#pragma mark InitUI
+
+- (void)initUI{
+    self.title = @"&lt;#title#&gt;";
+    self.view.backgroundColor = [UIColor &lt;#color#&gt;];
+    
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight-SafeTopHeight) style:UITableViewStylePlain];
+    self.tableView.tableFooterView = [UIView new];
+    self.tableView.keyboardDismissMode = UIScrollViewKeyboardDismissModeOnDrag;
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    [self.view addSubview:_tableView];
+    
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([&lt;#Class#&gt; class]) bundle:nil] forCellReuseIdentifier:&lt;#cellIdentifier#&gt;];
+    
+    if (@available(iOS 11.0, *)) {
+        self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+    } else {
+        self.automaticallyAdjustsScrollViewInsets = NO;
+    }
+}
+
+#pragma mark Signal
+
+- (void)setupSignal{
+    
+}
+
+#pragma mark UITableViewDataSource
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return CGFLOAT_MIN;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+    return CGFLOAT_MIN;
+}
+
+- (nullable UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    return nil;
+}
+
+- (nullable UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
+    return nil;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return &lt;#rowCount#&gt;;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSDictionary *cellData = &lt;#cellData#&gt;;
+    
+    &lt;#cellClass#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#cellIdentifier#&gt;];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSDictionary *cellData = &lt;#cellData#&gt;;
+    
+    
+}
+
+#pragma mark Methed
+
+#pragma mark Action
+
+#pragma mark Request
+
+#pragma mark Get &amp; Set
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>50271373-6934-4F22-96E9-B2F3042184EC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ML Init TableVC</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

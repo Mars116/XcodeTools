@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>initVC</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self initUI];
+    [self setupSignal];
+}
+
+#pragma mark InitUI
+
+- (void)initUI{
+    self.title = @"&lt;#title#&gt;";
+    self.view.backgroundColor = [UIColor &lt;#color#&gt;];
+}
+
+#pragma mark Signal
+
+- (void)setupSignal{
+    
+}
+
+#pragma mark Methed
+
+#pragma mark Action
+
+#pragma mark Request
+
+#pragma mark Get &amp; Set
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B564B787-4757-4E8E-A8A2-1299CE7B5420</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>init vc code</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ML Init VC</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

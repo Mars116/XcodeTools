@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>disGroup</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    if(!_dispatchGroup) _dispatchGroup = dispatch_group_create();
+    
+    //开始执行异步操作
+    dispatch_group_enter(_dispatchGroup);
+
+    //执行完成异步操作
+    dispatch_group_leave(_dispatchGroup);
+
+    dispatch_group_notify(_dispatchGroup, dispatch_get_main_queue(), ^()
+                          {
+                             //队列执行完毕
+        
+                          });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E2122485-AFCD-4B71-B39F-D3230E1FEEA4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ML DispatchGroup</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
