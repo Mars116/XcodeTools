@@ -11,12 +11,12 @@ The Custom CodeSnippets、Template
 
 3. Usage: Custom CodeSnippets
 ```objective-c
-./setup_snippets.sh
+         ./setup_snippets.sh
 ```
 
 4. Usage: Custom Template
 ```objective-c
-sudo chmod -R 777 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File\ Templates
+         sudo chmod -R 777 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File\ Templates
          ./setup_template.sh
 ```
 
