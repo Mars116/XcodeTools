@@ -5,7 +5,7 @@ The Custom CodeSnippets、Template
 ## How To Use 
 
 ```objective-c
-1. check out the project using: git clone https://github.com/tangqiaoboy/xcode_tool
+1. check out the project using: git clone https://github.com/Mars116/XcodeTools
 2. cd xcode_tool
 ```
 
