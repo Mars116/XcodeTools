@@ -6,7 +6,7 @@ The Custom CodeSnippets、Template
 
 ```objective-c
 1. check out the project using: git clone https://github.com/Mars116/XcodeTools
-2. cd xcode_tool
+2. cd XcodeTools
 ```
 
 3. Usage: Custom CodeSnippets
@@ -19,5 +19,4 @@ The Custom CodeSnippets、Template
          sudo chmod -R 777 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File\ Templates
          ./setup_template.sh
 ```
-
 
