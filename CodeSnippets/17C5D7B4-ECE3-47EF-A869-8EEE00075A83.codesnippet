@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pm</string>
+	<string>imgName</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#Text#&gt;
-</string>
+	<string>&lt;#imageView#&gt;.image = [UIImage imageNamed:@"&lt;#imageName#&gt;"];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>DB9D3574-A428-4365-ADB0-68B7825A3940</string>
+	<string>17C5D7B4-ECE3-47EF-A869-8EEE00075A83</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ML Pragma Mark</string>
+	<string>ML UIImageView imageNamed:</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
